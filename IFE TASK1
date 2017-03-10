@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 1</title>
+</head>
+<body>
+	<header>
+		<h1>网站一级标题</h1>
+		<nav>
+			<ul>
+				<li><a href="">导航链接1</a></li>
+				<li><a href="">导航链接2</a></li>
+				<li><a href="">导航链接3</a></li>
+				<li><a href="">导航链接4</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h2>文章一级标题</h2>
+		<h2>文章二级标题</h2>
+		<p>文章作者 文章发表时间</p>
+		<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>
+		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>
+		</p>
+		<img src="megumi.jpg" alt="picture" width="300" height="300">
+		<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了
+		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/></p>
+	</article>
+	<article>
+		<h2>另一个文章一级标题</h2>
+		<h2>文章二级标题</h2>
+		<p>文章作者 文章发表时间</p>
+		<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>
+		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落,换行了<br/>
+		</p>
+		<img src="megumi.jpg" alt="picture" width="300" height="300">
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+	</article>
+	<figure>
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">
+		<p>好看的图片</p> 
+		<img src="megumi.jpg" alt="" width="300" height="300">		
+	</figure>
+
+	<article>
+		<h2>最后一篇文章一级标题</h2>
+		<h2>文章二级标题</h2>
+		<p>文章作者 文章发表时间</p>
+		<ol>
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+	</article>
+	
+	<figure>
+		<p>下面是一个表格</p>
+		<table border="1">
+			<tr> 
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+		    </tr>
+			<tr>
+				<th>表内容单元格</th>
+				<th>表内容单元格</th>
+				<th><a href="">操作</a></th>
+			</tr>
+			<tr>
+				<th>表内容单元格</th>
+				<th>表内容单元格</th>
+				<th><a href="">操作</a></th>
+			</tr>
+			<tr>
+				<th>表内容单元格</th>
+				<th>表内容单元格</th>
+				<th><a href="">操作</a></th>
+			</tr>
+			<tr>
+				<th>表内容单元格</th>
+				<th>表内容单元格</th>
+				<th><a href="">操作</a></th>
+			</tr>		
+			<tr colspan="2">
+				<th>总计</th>
+				<th>1000</th>
+			</tr>	
+		</table>
+	</figure>
+
+	<aside>
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<h2>侧栏注册窗口标题</h2>
+		<form action="">
+			<label for="">请输入邮箱地址:
+				<input type="email" placeholder="这是一个文本输入框">
+			</label><br/>
+			<label for="">邮箱地址请按要求格式输入</label> <br>
+			<label for="">请输入密码:
+					<input type="passwordd" placeholder="这是一个文本输入框">
+				<label for="">请重复输入密码:
+					<input type="passwordd" placeholder="这是一个文本输入框">
+				</label>
+			</label><br>
+			<label for="">密码请为6-16位英文数字</label><br>
+			<label for="">性别
+					<input type="radio" checked="checked">男
+					<input type="radio">女
+				<label for="">城市
+					<select name="" id="">
+						<option value="">北京</option>
+					</select>
+				</label>
+				<label for="">爱好
+					<input type="checkbox">运动
+					<input type="checkbox">艺术
+					<input type="checkbox">科学
+				</label>
+				<label for="">个人描述
+					<input type="textarea" placeholder="这是一个多行输入框，输入您的个人描述">
+					<input type="button" value="确认提交">
+				</label>
+			</label>
+		</form>	
+	</aside>
+	<footer>
+		版权所有
+	</footer>
+</body>
+</html>
