@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>图片缩放</title>
+	<style type="text/css"> 
+		div.main{
+			margin:0 auto;
+ 			width: 600px;
+ 			height: 600px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<img src="aoi.jpg" alt="" id="aoi" width="500" height="500" > <br/>
+		<label><input type="button" value="放大" id="max"></label>
+		<label for=""><input type="button" value="缩小" id="min"></label>
+	</div>
+	<script tpey="text/javascript">
+		window.onload=function(){
+			var max=document.getElementById('max');
+			var img=document.getElementById('aoi');	
+ 			max.onclick=function(){
+				maxFun();
+			};
+			var maxWidth=img.width*2;
+			var minWidth=img.width*0.3;
+			function maxFun(){ 	
+				var endWidth=img.width*1.3;
+   				var maxTimer=setInterval(function(){
+ 					if(img.width < maxWidth ){
+						if(img.width< endWidth){
+ 						img.width=img.width*1.05;
+ 						img.height=img.height*1.05;
+ 						}
+ 						else{
+ 							clearInterval(maxTimer);	
+ 						}
+ 					}
+ 					else {
+ 						clearInterval(maxTimer);
+ 					}
+ 				},20);
+			}
+			var min=document.getElementById('min');
+			min.onclick=function(){
+				minFun();
+			};
+			function minFun(){
+				var endWidth=img.width*0.6;
+				 var minTimer=setInterval(function(){
+				 	if(img.width > minWidth){
+				 		if(img.width > endWidth){
+				 			img.width=img.width*0.95;
+				 			img.height=img.height*0.95;
+				 		}else{
+				 			clearInterval(minTimer);
+				 		}
+				 	}else{
+				 		clearInterval(minTimer);
+				 	}
+				 },20);
+			}
+		};
+	</script>
+</body>	
+</html>
